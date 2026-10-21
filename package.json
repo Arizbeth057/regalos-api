@@ -1,0 +1,9 @@
+{
+  "name": "regalos-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API local para una tienda de regalos con PostgreSQL",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": { "express": "^5.1.0", "pg": "^8.16.3" }
+}
